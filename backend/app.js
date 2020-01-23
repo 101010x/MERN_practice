@@ -16,7 +16,7 @@ const userRoutes = require('./routes/user');
 
 
 
-mongoose.connect('mongodb+srv://mutugi:pgXhEdxE4FXNnteY@cluster0-gsja1.mongodb.net/test?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect('',{useNewUrlParser: true, useUnifiedTopology: true})
     .then(() => {
       console.log('Succesfully connected to MongoDB Atlas');
     })
