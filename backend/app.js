@@ -1,8 +1,3 @@
-//An Express app is basically a series of functions called middleware. Each piece of middleware receives the request and response objects, and can read, parse, and manipulate them as necessary.
-//MongoDB pass: pgXhEdxE4FXNnteY
-//MongoDB Connection: mongodb+srv://mutugi:<password>@cluster0-gsja1.mongodb.net/test?retryWrites=true&w=majority
-
-
 //Declaration of express app
 const express = require('express');
 const app = express();
